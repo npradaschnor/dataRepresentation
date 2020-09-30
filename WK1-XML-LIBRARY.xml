@@ -1,0 +1,23 @@
+<?xml version="1.0"? encoding="UTF-8"?> 
+<Library> 
+    <Book category="Technical Books"> 
+        <ISBN>978-9380090092</ISBN> 
+        <Title>Handbook of Applied Nutrition, Dietotherapy and Diet Management</Title> 
+        <Author>Mangala Punekar</Author> 
+    </Book> 
+    <Book category="Technical Books"> 
+        <ISBN>978-9813291317</ISBN> 
+        <Title>Chronic Kidney Disease:Diagnosis and Treatment</Title> 
+        <Author>Junwei Yang</Author> 
+    </Book> 
+    <Book category="Cookery Books"> 
+        <ISBN> 978-1844884872</ISBN> 
+        <Title>The Happy Pear:Vegan Cooking for Everyone</Title> 
+        <Author>David Flynn</Author> 
+    </Book>
+    <Book category="Cookery Books"> 
+        <ISBN>978-1529026443</ISBN> 
+        <Title>Pinch of Nom Food Planner:Everyday Light</Title> 
+        <Author>Kay Featherstone</Author> 
+    </Book>
+</Library> 
