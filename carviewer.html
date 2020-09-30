@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>View cars</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Cars</h1><br>
+
+    <div>
+        <button>Create</button><br><br>
+    </div>
+
+    <h2>All cars</h2><br>
+
+    <div class="table-responsive-md">
+        <table class="table table-bordered">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">reg</th>
+                    <th scope="col">make</th>
+                    <th scope="col">model</th>
+                    <th scope="col">price</th>
+                    <th scope="col">Update</th>
+                    <th scope="col">Delete</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>191 M0 123</td>
+                    <td>Ford</td>
+                    <td>Modeo</td>
+                    <td>25,000</td>
+                    <td><button>update</button></td>
+                    <td><button>delete</button></td>
+                </tr>
+
+                <tr>
+                    <td>12 D 123</td>
+                    <td>Fiat</td>
+                    <td>Punto</td>
+                    <td>4,000</td>
+                    <td><button>update</button></td>
+                    <td><button>delete</button></td>
+
+                </tr>
+
+                <tr>
+                    <td>08 G 123</td>
+                    <td>Nissan</td>
+                    <td>Almera</td>
+                    <td>500</td>
+                    <td><button>update</button></td>
+                    <td><button>delete</button></td>
+                </tr>
+            </tbody>
+        </table><br>
+    </div>
+
+    <h2><span>Create a</span> <span>Update this</span> Car</h2><br>
+
+    <div>
+
+        reg
+        <input type="text" name="reg"><br> make
+        <select name="make">
+        <option value="Ford">Ford</option>
+        <option value="Fiat">Fiat</option>
+        <option value="Nissan">Nissan</option>
+        </select><br> model
+        <input type="text" name="model"><br> price
+        <input type="number" name="price"><br>
+
+        <span><button>Create</button></span>
+        <span><button>Update</button></span>
+    </div>
+
+</body>
+
+</html>
