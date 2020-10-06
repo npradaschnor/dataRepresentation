@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 2.7</title>
+    <!--1.Make a web page that outputs 1 to 10 (or N) & 2. Make a web page that outputs all the values of an array-->
+</head>
+
+<body>
+
+    <div id="output">
+        Output here
+    </div>
+
+    <!--2.7.1-->
+    <script>
+        for (var i = 0; i < 10; i++) {
+            console.log(i)
+        }
+        var names = ["Joe", "Mary", "Fred"]
+        var output = ''
+        for (name of names) {
+            output += name + '<br/>'
+        }
+        document.getElementById("output").innerHTML = output
+    </script>
+
+</body>
+
+</html>
