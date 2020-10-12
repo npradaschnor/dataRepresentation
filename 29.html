@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Exercise 2.9</title>
+    <!--Ex 2.9.1 - Write the code so that when the user clicks on the button in a row, the contents of the cells in that row are stored in an object and outputted to the console-->
+
+    <!--Ex 2.9.2 - Create a button that when it is clicked adds a row to the table (above) with data-->
+
+</head>
+
+<body>
+    <table id="mainTable">
+        <tr>
+            <td>Output Cell 1</td>
+            <td>Output Cell 2</td>
+            <td><button onclick="doRow(this)">Output</button></td>
+        </tr>
+    </table>
+    <button onclick="createRow()">Create Row</button>
+</body>
+<script>
+    //Exercise 2.9.1
+    function doRow(buttonElement) {
+        var rowElement = buttonElement.parentNode.parentNode
+        var data = {}
+        data.cell1 = rowElement.cells[0].firstChild.textContent;
+        data.cell2 = rowElement.cells[1].firstChild.textContent;
+
+        console.log(JSON.stringify(data))
+
+    }
+
+    //Exercise 2.9.2
+    function createRow() {
+        var tableElement = document.getElementById('mainTable')
+        var data = {
+                cell1: 'Hi',
+                cell2: 'Hello',
+                cell3: 'See you'
+            } // Data that we will put in the table
+
+        var rowElement = tableElement.insertRow(-1) //position in the end of the table
+        var cellElement = rowElement.insertCell(0) //first position
+        cellElement.innerHTML = data.cell1;
+        cellElement = rowElement.insertCell(1)
+        cellElement.innerHTML = data.cell2;
+        cellElement = rowElement.insertCell(2)
+        cellElement.innerHTML = data.cell3;
+
+    }
+</script>
+
+</html>
