@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> //AJAX magic line // Web page that uses AJAX to read the JSON from the website https://api.coindesk.com/v1/bpi/currentprice.json
+
+    <title> Read a simple JSON </title>
+
+</head>
+
+<body>
+    <button onclick="readJSON()"> Go </button>
+
+</body>
+
+<script>
+    function readJSON() {
+        $.ajax({
+            "url": "https://api.coindesk.com/v1/bpi/currentprice.json", //the server (file) location
+            "method": "GET",
+            "data": "",
+            "dataType": "JSON",
+            "success": function(result) {
+                console.log(JSON.stringify(result));
+            }, //Note that when sending data to a web server, the data has to be a string. JSON.stringify() converts a JS object into a string
+            "error": function(xhr, status, error) {
+                console.log("error: " + status + "msg:" + error);
+            }
+        });
+    }
+</script>
+
+</html>

@@ -1,0 +1,27 @@
+<html>
+
+<head>
+
+    <title> Lab02 - JSON array </title>
+
+</head>
+
+<body>
+
+    <button onclick="displayJSON()"> Go </button> ///button that clicked will run the displayJSON function
+
+</body>
+
+<script>
+    function displayJSON() {
+        var obj = JSON.parse('{"employees": [{"firstName": "John", "lastName": "Doe"},{"firstName ": "Anna","lastName": "Smith"}, {"firstName": "Peter","lastName": "Jones"}]}') //Note that when receiving data from a web server, the data is always a string.Parse the data with JSON.parse(), and the data becomes a JavaScript object
+
+        for (employee of obj.employees) {
+            console.log(employee.firstName)
+        }
+        //or employee.array.forEach(employees) => {
+        //console.log(employee.firstName)
+    }
+    // forEach method calls a function once for each element in an array, in order
+    }
+</script>
