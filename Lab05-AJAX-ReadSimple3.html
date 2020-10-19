@@ -1,7 +1,9 @@
 <html>
 
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> //AJAX magic line // Web page that uses AJAX to read the JSON from the website https://api.coindesk.com/v1/bpi/currentprice.json
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        //AJAX magic line // Web page that uses AJAX to read the JSON from the website https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR
+    </script>
 
     <title> Read a simple JSON - getting a specific information </title>
 
@@ -16,12 +18,12 @@
 <script>
     function readJSON() {
         $.ajax({
-            "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR"
+            "url": "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR",
             "method": "GET",
             "data": "",
             "dataType": "JSON",
             "success": function(result) {
-                var rate = result.USD; //print out only the USD price
+                var rate = result.USD;
                 console.log(rate);
                 document.getElementById("output").innerText = rate;
             },
