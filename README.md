@@ -38,3 +38,25 @@ Instructions:
 ###### Exercises - list of 10 short exercises
 Instructions:
 - w3-JS-exercises.pdf
+
+##### Week 4 | JSON, AJAX and REST:
+
+###### Lab01-simpleJSON.html
+Instructions:
+- Lab04-JSON and AJAX.pdf
+
+###### Lab02-JSON-array.html
+Instructions:
+- Lab04-JSON and AJAX.pdf
+
+###### Lab03-AJAX-Readsimple.html
+Instructions:
+- Lab04-JSON and AJAX.pdf
+
+###### Lab04-AJAX-Readsimple2.html
+Instructions:
+- Lab04-JSON and AJAX.pdf
+
+###### Lab05-AJAX-Readsimple3.html
+Instructions:
+- Lab04-JSON and AJAX.pdf
