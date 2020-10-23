@@ -41,32 +41,32 @@ Instructions:
 
 ##### [Week 4](https://github.com/npradaschnor/dataRepresentation/tree/master/wk4%20-%20JSON%2C%20AJAX%2C%20REST) | JSON, AJAX and REST:
 
-###### [Lab01-simpleJSON.html]()
+###### [Lab01-simpleJSON.html](https://github.com/npradaschnor/dataRepresentation/blob/master/wk4%20-%20JSON%2C%20AJAX%2C%20REST/Lab01-simpleJSON.html)
 Instructions:
-- [Lab04-JSON and AJAX.pdf]()
+- [Lab04-JSON and AJAX.pdf](https://github.com/npradaschnor/dataRepresentation/blob/master/wk4%20-%20JSON%2C%20AJAX%2C%20REST/Lab04-JSON%20and%20AJAX.pdf)
 
 ###### [Lab02-JSON-array.html]()
 Instructions:
-- Lab04-JSON and AJAX.pdf
+- [Lab04-JSON and AJAX.pdf](https://github.com/npradaschnor/dataRepresentation/blob/master/wk4%20-%20JSON%2C%20AJAX%2C%20REST/Lab04-JSON%20and%20AJAX.pdf)
 
-###### [Lab03-AJAX-Readsimple.html]()
+###### [Lab03-AJAX-Readsimple.html](https://github.com/npradaschnor/dataRepresentation/blob/master/wk4%20-%20JSON%2C%20AJAX%2C%20REST/Lab03-AJAX-Readsimple.html)
 Instructions:
-- Lab04-JSON and AJAX.pdf
+- [Lab04-JSON and AJAX.pdf](https://github.com/npradaschnor/dataRepresentation/blob/master/wk4%20-%20JSON%2C%20AJAX%2C%20REST/Lab04-JSON%20and%20AJAX.pdf)
 
-###### [Lab04-AJAX-Readsimple2.html]()
+###### [Lab04-AJAX-Readsimple2.html](https://github.com/npradaschnor/dataRepresentation/blob/master/wk4%20-%20JSON%2C%20AJAX%2C%20REST/Lab04-AJAX-ReadSimple2.html)
 Instructions:
-- Lab04-JSON and AJAX.pdf
+- [Lab04-JSON and AJAX.pdf](https://github.com/npradaschnor/dataRepresentation/blob/master/wk4%20-%20JSON%2C%20AJAX%2C%20REST/Lab04-JSON%20and%20AJAX.pdf)
 
-###### [Lab05-AJAX-Readsimple3.html]()
+###### [Lab05-AJAX-Readsimple3.html](https://github.com/npradaschnor/dataRepresentation/blob/master/wk4%20-%20JSON%2C%20AJAX%2C%20REST/Lab05-AJAX-ReadSimple3.html)
 Instructions:
-- Lab04-JSON and AJAX.pdf
+- [Lab04-JSON and AJAX.pdf](https://github.com/npradaschnor/dataRepresentation/blob/master/wk4%20-%20JSON%2C%20AJAX%2C%20REST/Lab04-JSON%20and%20AJAX.pdf)
 
-##### [Week 5]() | AJAX and REST:
+##### [Week 5](https://github.com/npradaschnor/dataRepresentation/tree/master/wk5%20-%20CURL%2C%20FLASK%2C%20AJAX) | AJAX and REST:
 
-###### [a_simpleserver.py]()
+###### [a_simpleserver.py](https://github.com/npradaschnor/dataRepresentation/blob/master/wk5%20-%20CURL%2C%20FLASK%2C%20AJAX/servers/a_simpleserver.py)
 Instructions:
 - [Lab05.2 flask1.pdf]()
 
-###### [testgetall.html]()
+###### [testgetall.html](https://github.com/npradaschnor/dataRepresentation/blob/master/wk5%20-%20CURL%2C%20FLASK%2C%20AJAX/testget.html)
 Instructions:
 - [Lab05.3-AJAX calls to REST.pdf]()
