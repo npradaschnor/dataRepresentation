@@ -6,7 +6,7 @@
 
 #### Assignments | Labs
 
-##### Week 1 | XML and DOM: 
+##### [Week 1]() | XML and DOM: 
 
 ###### [Exercise 1.1](https://github.com/npradaschnor/dataRepresentation/blob/master/wk1%20-%20XML%2C%20HTML%2C%20DOM/WK1-XML-LIBRARY.xml) Create an XML file. 
 Instructions:
@@ -15,58 +15,58 @@ Instructions:
 - Each catalogue can contain a number of books (say 2 for the purpose of this exercise) . 
 - Books will have an ISBN, title and author.
 
-###### Lab01 Create HTML page.
+###### [Lab01](https://github.com/npradaschnor/dataRepresentation/blob/master/wk1%20-%20XML%2C%20HTML%2C%20DOM/carviewer.html) Create HTML page.
 Instructions:
-- Lab01-html.pdf
+- [Lab01-html.pdf](https://github.com/npradaschnor/dataRepresentation/blob/master/wk1%20-%20XML%2C%20HTML%2C%20DOM/Lab01-html.pdf)
 
-##### Week 2 | Javascript: 
+##### [Week 2](https://github.com/npradaschnor/dataRepresentation/tree/master/wk2%20-%20JS) | Javascript: 
 
-###### Lab02 Functionality	on	the	webpage.
+###### [Lab02](https://github.com/npradaschnor/dataRepresentation/blob/master/wk2%20-%20JS/Lab02-functionality%20on%20the%20webpage.html) Functionality	on	the	webpage.
 Instructions:
-- Lab02-Javascript.pdf
+- [Lab02-Javascript.pdf](https://github.com/npradaschnor/dataRepresentation/blob/master/wk2%20-%20JS/Lab02-JavaScript.pdf)
 
-##### Week 3 | Javascript: 
+##### [Week 3](https://github.com/npradaschnor/dataRepresentation/tree/master/wk3%20-%20Consuming%20XML%2CHTML) | Javascript: 
 
-###### Lab03a Write a program that stores the data for all trains in Ireland in a csv file.
+###### [Lab03a]() Write a program that stores the data for all trains in Ireland in a csv file.
 Instructions:
-- Lab03a-trains.pdf
+- [Lab03a-trains.pdf](https://github.com/npradaschnor/dataRepresentation/blob/master/wk3%20-%20Consuming%20XML%2CHTML/Lab03a-trains.pdf)
 
-###### Lab03b Extract house prices from myhome.ie and store in a TabSV.
+###### [Lab03b]() Extract house prices from myhome.ie and store in a TabSV.
 Instructions:
-- Lab03b-web Scraping.pdf
+- [Lab03b-web Scraping.pdf](https://github.com/npradaschnor/dataRepresentation/blob/master/wk3%20-%20Consuming%20XML%2CHTML/Lab03b-web%20Scraping.pdf)
 
 ###### Exercises - list of 10 short exercises
 Instructions:
-- w3-JS-exercises.pdf
+- [w3-JS-exercises.pdf](https://github.com/npradaschnor/dataRepresentation/blob/master/wk3%20-%20Consuming%20XML%2CHTML/w3-JS-exercises.pdf)
 
-##### Week 4 | JSON, AJAX and REST:
+##### [Week 4](https://github.com/npradaschnor/dataRepresentation/tree/master/wk4%20-%20JSON%2C%20AJAX%2C%20REST) | JSON, AJAX and REST:
 
-###### Lab01-simpleJSON.html
+###### [Lab01-simpleJSON.html]()
+Instructions:
+- [Lab04-JSON and AJAX.pdf]()
+
+###### [Lab02-JSON-array.html]()
 Instructions:
 - Lab04-JSON and AJAX.pdf
 
-###### Lab02-JSON-array.html
+###### [Lab03-AJAX-Readsimple.html]()
 Instructions:
 - Lab04-JSON and AJAX.pdf
 
-###### Lab03-AJAX-Readsimple.html
+###### [Lab04-AJAX-Readsimple2.html]()
 Instructions:
 - Lab04-JSON and AJAX.pdf
 
-###### Lab04-AJAX-Readsimple2.html
+###### [Lab05-AJAX-Readsimple3.html]()
 Instructions:
 - Lab04-JSON and AJAX.pdf
 
-###### Lab05-AJAX-Readsimple3.html
-Instructions:
-- Lab04-JSON and AJAX.pdf
+##### [Week 5]() | AJAX and REST:
 
-##### Week 5 | AJAX and REST:
-
-###### a_simpleserver.py
+###### [a_simpleserver.py]()
 Instructions:
-- Lab05.2 flask1.pdf
+- [Lab05.2 flask1.pdf]()
 
-###### testgetall.html
+###### [testgetall.html]()
 Instructions:
-- Lab05.3-AJAX calls to REST.pdf
+- [Lab05.3-AJAX calls to REST.pdf]()
