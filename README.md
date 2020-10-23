@@ -8,7 +8,7 @@
 
 ##### Week 1 | XML and DOM: 
 
-###### <a ref="https://github.com/npradaschnor/dataRepresentation/blob/master/wk1%20-%20XML%2C%20HTML%2C%20DOM/WK1-XML-LIBRARY.xml"> Exercise 1.1 </a> Create an XML file. 
+###### [Exercise 1.1](https://github.com/npradaschnor/dataRepresentation/blob/master/wk1%20-%20XML%2C%20HTML%2C%20DOM/WK1-XML-LIBRARY.xml) Create an XML file. 
 Instructions:
 - Create an XML file that stores data for a library. 
 - The library has two catalogues (technical books, and for cookery books).
