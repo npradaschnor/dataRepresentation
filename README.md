@@ -1,8 +1,8 @@
-# GMIT
+<a href="https://ibb.co/Mnc0wdk"><img src="https://i.ibb.co/dBPYCZ4/GMIT-LOGO.png" alt="GMIT-LOGO" border="0" /></a>
 
 ## Data Representation and Querying Module Sept 2020
 
-### Noa Pereira Prada Schnor  G
+### Noa Pereira Prada Schnor  G00364704
 
 #### Assignments | Labs
 
@@ -60,3 +60,13 @@ Instructions:
 ###### Lab05-AJAX-Readsimple3.html
 Instructions:
 - Lab04-JSON and AJAX.pdf
+
+##### Week 5 | AJAX and REST:
+
+###### a_simpleserver.py
+Instructions:
+- Lab05.2 flask1.pdf
+
+###### testgetall.html
+Instructions:
+- Lab05.3-AJAX calls to REST.pdf
