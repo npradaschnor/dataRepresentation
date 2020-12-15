@@ -34,7 +34,7 @@ def get_cars():
     return jsonify( {'cars':cars})
 # curl -i http://localhost:5000/cars
 
-#To find the ID by passing the info to the function as a String calleg 'reg'
+#To find the ID by passing the info to the function as a String called 'reg'
 @app.route('/cars/<string:reg>', methods =['GET'])
 def get_car(reg):
     foundCars = list(filter(lambda t : t['reg'] == reg , cars))#filter searches through the list cars and returns only the ones that matches the reg variable. lambda goes through each element of the list
